@@ -5375,8 +5375,8 @@ nav {
 
 @media only screen and (min-width : 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px; }
+    height: 32px;
+    line-height: 32px; }
   .navbar-fixed {
     height: 64px; } }
 
@@ -7005,6 +7005,11 @@ select {
 
     .side-nav li:hover, .side-nav li.active {
       background-color: #ddd; }
+
+    .side-nav li .logo {
+      float: left !important;
+      padding: 0 0 !important;
+    }
     
     .side-nav .logo {
       padding: 5px 5px 0 5px;
@@ -7021,6 +7026,13 @@ select {
     height: 64px;
     line-height: 64px;
     padding: 0 15px; }
+
+    .side-nav .contact {
+      color: #444;
+      padding: 0;
+      height: 32px;
+      line-height: 32px;
+    }
 
 .drag-target {
   height: 100%;
